@@ -20,7 +20,7 @@ let package = Package(
         .target(
             name: "SPMDemoDep",
             dependencies: [
-                .product(name: "SigmaDeviceWithoutTrustKit", package: "socure-sigmadevice-sdk-ios"),
+                .product(name: "SPMDemoNoTrustKit", package: "SPMDemoPackage"),
                 "TrustKit"
             ] 
         ),
