@@ -13,7 +13,7 @@ let package = Package(
             targets: ["SPMDemoDep"])
     ],
     dependencies: [
-        .package(url: "https://github.com/socure-inc/socure-sigmadevice-sdk-ios", revision: "b0fc489d02d5b4516ff1566e0a75c37e80088387"),
+        .package(url: "https://github.com/theonepa1/SPMDemoPackage", revision: "4ffb806ef69a3af5845b751474d810a8b92cfdb2"),
         .package(url: "https://github.com/datatheorem/TrustKit", from: "2.0.0")
     ],
     targets: [
