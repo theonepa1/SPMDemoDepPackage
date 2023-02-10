@@ -13,7 +13,7 @@ let package = Package(
             targets: ["SPMDemoDep"])
     ],
     dependencies: [
-        .package(url: "https://github.com/theonepa1/SPMDemoPackage", revision: "28d3f0f11876b637ec23eca62fbce625e8c751c6"),
+        .package(url: "https://github.com/theonepa1/SPMDemoPackage", revision: "e4f7d45d916ddc484f0f8153cd4aeac68ee0ea79"),
         .package(url: "https://github.com/datatheorem/TrustKit", from: "2.0.0")
     ],
     targets: [
